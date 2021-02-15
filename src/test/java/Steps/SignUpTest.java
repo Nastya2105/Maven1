@@ -2,8 +2,8 @@ package Steps;
 
 import org.junit.Assert;
 import org.junit.Test;
-import pageobjekt.MainPage;
-import pageobjekt.SignUpPage;
+import pageobject.MainPage;
+import pageobject.SignUpPage;
 
 public class SignUpTest extends BaseTest {
     MainPage mainPage = new MainPage(getDriver());
