@@ -30,7 +30,7 @@ public class SignUpTest extends BaseTest {
     }
 
     public void enterMainData() {
-        signUpPage.enterName("");
+        signUpPage.enterName("ssss");
         signUpPage.enterLastName("wwww");
         signUpPage.enterEmail("eeee@example.com");
         signUpPage.enterPassword("1111");
